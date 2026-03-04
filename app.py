@@ -97,7 +97,7 @@ with col2:
     else:
         st.success("Balanced Error Distribution ✅")
 
-        st.markdown("---")------------------------
+        st.markdown("---")
         
         col5, col6 = st.columns(2)
         col5.metric("Demographic Parity Difference", round(dp,3))
